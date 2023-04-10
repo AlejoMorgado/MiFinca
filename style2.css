@@ -1,0 +1,94 @@
+img{
+    width: 80px;
+    height: 80px;}
+header {
+	background-color:white;
+	padding: 20px;
+	text-align: center;
+}
+.menu_container{
+    /* margin-left: 50px; */
+    font-size: 10px;
+    font-weight: bold;
+}
+.cuadro {
+    width: 800px;
+    height: 400px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 1px;
+    display: inline-block;
+}
+.cuadro img {
+
+    width: 800px;
+    
+    height: 400px ;
+    /* Ajustamos la altura de la imagen automáticamente para mantener la proporción */
+    display: block;
+    /* Ajustamos la propiedad display en block para que la imagen ocupe todo el ancho disponible */
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px;
+}
+
+.cuadros {
+    width:calc(20.33% - 5px);
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* .contenedor1 {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 200px;
+    height: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.menu-lateral ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral li {
+    padding: 10px;
+}
+
+.menu-lateral li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-lateral li a:hover {
+    color: #555;
+}
+
+.contenido {
+    flex-grow: 1;
+    padding: 20px;
+} */
